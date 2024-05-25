@@ -1,10 +1,4 @@
-public class MAIN {
-    public static void main(String[] args) throws Exception {
-        String input = "1 + 9";
-        System.out.println(calc(input));
-    }
-
-
+public class Calc {
     public static String calc(String input) throws Exception {
         String[] b = input.split(" ");
         int a = Integer.parseInt(b[0]);
