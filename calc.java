@@ -1,4 +1,4 @@
-public class Calc {
+public class calc {
     public static String calc(String input) throws Exception {
         String[] b = input.split(" ");
         int a = Integer.parseInt(b[0]);
