@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Сalc {
      public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
