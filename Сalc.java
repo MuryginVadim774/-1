@@ -1,4 +1,8 @@
 public class Сalc {
+     public static void main(String[] args) throws Exception {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(calc(scanner.nextLine()));
+    }
     public static String calc(String input) throws Exception {
         String[] b = input.split(" ");
         int a = Integer.parseInt(b[0]);
